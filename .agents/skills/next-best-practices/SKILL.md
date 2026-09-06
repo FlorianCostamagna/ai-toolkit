@@ -151,11 +151,3 @@ See [debug-tricks.md](./debug-tricks.md) for:
 - MCP endpoint for AI-assisted debugging
 - Rebuild specific routes with `--debug-build-paths`
 
-## Component Architecture
-
-See [component-architecture.md](./component-architecture.md) for:
-- Keep large pure functions out of component files
-- Threshold: > 15 lines, no hooks/JSX, domain logic
-- Place in `src/lib/<domain>/` or `src/lib/utils/`
-- Companion helpers (< 10 lines, view-only) may stay inline
-
