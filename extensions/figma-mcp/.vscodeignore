@@ -1,0 +1,9 @@
+.vscode/**
+node_modules/**
+src/**
+**/*.ts
+**/*.map
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.git/**
